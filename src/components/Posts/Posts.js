@@ -13,6 +13,7 @@ const Posts = (props) => {
         post = {post}
         key = {Math.random()}
         likePost = {likePost}
+        
         />)
 
       })}
