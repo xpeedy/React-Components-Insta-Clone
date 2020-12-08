@@ -19,6 +19,8 @@ const App = () => {
   const [posts, setPosts] = useState(dummyData)
   const [search, setSearch] = useState(SearchBar)
 
+ 
+
   const likePost = postId => {
     /*
       This function serves the purpose of increasing the number of likes by one, of the post with a given id.
@@ -43,7 +45,10 @@ const App = () => {
   return (
     <div className='App'>
       {/* Add SearchBar and Posts here to render them */}
-      <SearchBar/>
+      <SearchBar
+      posts = {posts}
+      search = {search}
+      />
       <Posts 
       posts = {posts}
       likePost = {likePost}
