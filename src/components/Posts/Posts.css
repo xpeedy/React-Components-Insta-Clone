@@ -50,3 +50,8 @@
   margin: 15px 0px;
   font-size: 16px;
 }
+.comment-section-wrapper {
+  height: 10px;
+  width: 10px;
+  margin: 11px;
+}
